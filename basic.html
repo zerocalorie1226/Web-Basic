@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .heading1,
+    .heading2 {
+      font-size: 30px;
+      color: blue;
+      font-weight: 700;
+      background-color: yellow;
+    }
+    .para1,
+    .para2 {
+      font-size: 18px;
+      color: green;
+      background-color: pink;
+    }
+  </style>
+  <body>
+    <h1 class="heading1"><a href="/">제목입니다.</a></h1>
+    <p class="para1">본문입니다.</p>
+    <hr />
+    <div class="heading2">제목입니다.</div>
+    <div class="para2">본문입니다.</div>
+
+    <hr />
+    <form action="">
+      <fieldset>
+        <legend>....</legend>
+        <div>
+          <label for="userId">아이디</label><input type="text" id="userId" />
+        </div>
+        <div>
+          <label for="userPw">비밀번호</label
+          ><input type="password" id="userPw" />
+        </div>
+        <div>
+          성별<br />
+          <label for="userGenderMan">남자</label
+          ><input type="radio" name="gender" id="userGenderMan" />
+          <label for="userGenderWoman">여자</label
+          ><input type="radio" name="gender" id="userGenderWoman" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
