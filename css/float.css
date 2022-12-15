@@ -1,17 +1,35 @@
-div,
-span {
-  font-size: 48px;
+.box {
+  border: 1px solid red;
+  display: flow-root;
+  /* overflow: hidden; */
 }
+
+/* .box::after {
+  display: block;
+  content: '';
+  clear: both;
+} */
 
 .box1 {
   background-color: gold;
+  float: right;
 }
 .box2 {
   background-color: pink;
+  float: right;
+  width: 500px;
 }
 .box3 {
   background-color: lime;
+  float: right;
+  width: 500px;
 }
 .box4 {
   background-color: aqua;
+  float: left;
+  width: 70px;
+}
+.lorem {
+  background-color: silver;
+  clear: both;
 }
