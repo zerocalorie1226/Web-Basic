@@ -1,5 +1,11 @@
+div,
+span {
+  font-size: 48px;
+}
+
 .box1 {
   background-color: gold;
+  position: absolute;
 }
 .box2 {
   background-color: pink;
@@ -9,4 +15,9 @@
 }
 .box4 {
   background-color: aqua;
+}
+.box5 {
+  background-color: orange;
+  position: absolute;
+  display: inline-block;
 }
